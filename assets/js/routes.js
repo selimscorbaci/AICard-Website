@@ -1,0 +1,37 @@
+export const pageRoutes = {
+    '/AICard/pages/services/servicepage.html':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/AICard/pages/services/service-1.html':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/AICard/pages/services/service-2.html':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/AICard/pages/services/service-3.html':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/AICard/pages/aboutpage.html':{
+        "service":"services/servicepage.html",
+        "about":"aboutpage.html",
+        "contact":"contactpage.html",
+    },
+    '/AICard/pages/contactpage.html':{
+        "service":"services/servicepage.html",
+        "about":"aboutpage.html",
+        "contact":"contactpage.html",
+    },
+    '/AICard/index.html':{
+        "service":"pages/services/servicepage.html",
+        "about":"pages/aboutpage.html",
+        "contact":"pages/contactpage.html",
+    }
+};

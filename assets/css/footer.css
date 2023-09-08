@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Inter&family=Montserrat:wght@200;300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+footer{ 
+    background: rgb(223, 223, 236,0.4);
+    padding: 50px 0 100px 0;
+}
+.footer-wrapper{
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+}
+
+.footer-wrapper h1{
+    font-size: 40px;
+    margin: 18px;
+}
+.footer-wrapper p{
+    color: rgb(73, 73, 73);
+    margin-bottom: 10px;
+}
+
+.footer-wrapper input{
+    border-radius: 3.4px;
+    border: 0.4px solid rgb(148, 145, 145,0.4);
+    width: 680px;
+    height: 40px;
+    position: relative;
+}
+.footer-wrapper input::placeholder{
+    color: grey;   
+    position: absolute;
+    left: 20px;
+}
+.footer-wrapper #button{
+    background:  rgb(30, 101, 193); 
+    border-radius: 3.4px;
+    padding: 10px 20px;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.footer-wrapper #button a{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* responsive starts */
+
+@media only screen and (413px < width < 697px) {
+    .footer-wrapper h1{
+        font-size: 30px;
+        margin: 18px;
+    }
+    .footer-wrapper input{
+        border-radius: 3.4px;
+        border: 0.4px solid rgb(148, 145, 145,0.4);
+        width: 400px;
+        height: 40px;
+        position: relative;
+    }
+}
+
+@media only screen and ( width < 413px) {
+    .footer-wrapper h1{
+        font-size: 25px;
+        margin: 18px;
+    }
+    .footer-wrapper input{
+        border-radius: 3.4px;
+        border: 0.4px solid rgb(148, 145, 145,0.4);
+        width: 300px;
+        height: 40px;
+        position: relative;
+    }
+}
