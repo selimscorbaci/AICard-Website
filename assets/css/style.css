@@ -220,9 +220,10 @@ section:nth-child(1) .image img {
 }
 
 
-.section-4 .main-text {
+/* .section-4 .main-text {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
+    font-weight: lighter;
     letter-spacing: 1.1px;
 }
 
@@ -232,7 +233,7 @@ section:nth-child(1) .image img {
     font-size: 16px;
     margin-top: 16px;
     margin-bottom: 20px;
-}
+} */
 
 #team {
     margin-top: 80px;
@@ -273,17 +274,19 @@ section:nth-child(1) .image img {
 .main-col{
     margin-top: 68px;
     margin-bottom: 60px;
+    width: 1119.2px;
+    margin: 0 auto;
 }
-.main-col #client{
-    text-align: center;
-}
-.main-col .main-span {
+
+.main-col .main-text {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
+    font-weight: lighter;
     letter-spacing: 1.1px;
 }
 
-.main-col .main-span p {
+.main-col .main-text p {
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 80px;
     font-family: 'Inter', sans-serif;
@@ -311,8 +314,8 @@ section:nth-child(1) .image img {
 }
 
 .main-col .row-customer .col .row {
-    align-items: center;
     display: flex;
+    align-items: center;
     gap: 15px;
     margin-top: 15px;
     margin-bottom: 15px;

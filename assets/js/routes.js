@@ -1,4 +1,6 @@
+
 export const pageRoutes = {
+    // for local
     '/AICard/pages/services/servicepage.html':{
         "service":"servicepage.html",
         "about":"../aboutpage.html",
@@ -33,5 +35,41 @@ export const pageRoutes = {
         "service":"pages/services/servicepage.html",
         "about":"pages/aboutpage.html",
         "contact":"pages/contactpage.html",
+    },
+    //for deploy
+    '/pages/services/servicepage':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/pages/services/service-1':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/pages/services/service-2':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/pages/services/service-3':{
+        "service":"servicepage.html",
+        "about":"../aboutpage.html",
+        "contact":"../contactpage.html",
+    },
+    '/pages/aboutpage':{
+        "service":"services/servicepage.html",
+        "about":"aboutpage.html",
+        "contact":"contactpage.html",
+    },
+    '/pages/contactpage':{
+        "service":"services/servicepage.html",
+        "about":"aboutpage.html",
+        "contact":"contactpage.html",
+    },
+    '/':{
+        "service":"pages/services/servicepage.html",
+        "about":"pages/aboutpage.html",
+        "contact":"pages/contactpage.html",
     }
-};
+};    
