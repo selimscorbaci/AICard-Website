@@ -33,7 +33,7 @@ section:nth-child(1) .row:nth-child(1) {
     margin-top: 40px;
 }
 
-section:nth-child(1) .row:nth-child(1) span {
+section:nth-child(1) .row:nth-child(1) h1 {
     color: black;
     font-size: 53px;
     font-family: 'Inter', sans-serif;
@@ -462,7 +462,7 @@ section:nth-child(1) .image img {
         text-align: center;
         width: auto;
     }
-    section:nth-child(1) .row:nth-child(1) span {
+    section:nth-child(1) .row:nth-child(1) h1 {
         font-size: 40px;
     }
     section:nth-child(1) .row:nth-child(1) p {
