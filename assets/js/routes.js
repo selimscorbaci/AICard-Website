@@ -41,7 +41,12 @@ export const pageRoutes = {
         "about":"aboutpage.html",
         "contact":"contactpage.html",
     },
-    [pages[6] || pages[7]]:{
+    [pages[6]]:{
+        "service":"pages/services/servicepage.html",
+        "about":"pages/aboutpage.html",
+        "contact":"pages/contactpage.html",
+    },
+    [pages[7]]:{
         "service":"pages/services/servicepage.html",
         "about":"pages/aboutpage.html",
         "contact":"pages/contactpage.html",
