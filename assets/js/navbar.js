@@ -57,5 +57,6 @@ function changeNavbar() {
     }
 }
 
+
 changeNavbar();
 window.addEventListener("resize", changeNavbar);
