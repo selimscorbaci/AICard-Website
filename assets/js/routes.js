@@ -7,7 +7,7 @@ const pages = [
     `${location.pathname.split("aboutpage.html")[0]}` + "aboutpage.html",
     `${location.pathname.split("contactpage.html")[0]}` + "contactpage.html",
     `${location.pathname.split("index.html")[0]}` + "index.html",
-    `${location.pathname.split("/")[0]}` + "index.html",
+    "/",
 ]
 
 export const pageRoutes = {
