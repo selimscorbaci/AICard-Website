@@ -7,6 +7,7 @@ const pages = [
     `${location.pathname.split("aboutpage.html")[0]}` + "aboutpage.html",
     `${location.pathname.split("contactpage.html")[0]}` + "contactpage.html",
     `${location.pathname.split("index.html")[0]}` + "index.html",
+    `${location.pathname.split("/")[0]}` + "index.html",
 ]
 
 export const pageRoutes = {
@@ -40,7 +41,7 @@ export const pageRoutes = {
         "about":"aboutpage.html",
         "contact":"contactpage.html",
     },
-    [pages[6]]:{
+    [pages[6] || pages[7]]:{
         "service":"pages/services/servicepage.html",
         "about":"pages/aboutpage.html",
         "contact":"pages/contactpage.html",
