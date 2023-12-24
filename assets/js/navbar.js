@@ -6,7 +6,6 @@ function navButtonOnclick() {
     let icon = document.querySelector(".nav-button").children[0];
     if (icon.className == "fa-solid fa-bars") {
         icon.classList.replace("fa-bars", "fa-xmark");
-        //show the elements with some animation         
             if(document.getElementById("vertical-list") == null){
                 let uList = document.body.appendChild(document.createElement("ul"))
                 uList.id = "vertical-list";
@@ -26,7 +25,6 @@ function navButtonOnclick() {
             }
     else {
         icon.classList.replace("fa-xmark", "fa-bars");
-        //if element exists delete or hide
         
         if(document.getElementById("vertical-list") != null){
             document.getElementById("vertical-list").remove();
